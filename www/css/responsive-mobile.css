@@ -1,0 +1,1060 @@
+@media screen and (max-device-width: 319px) {
+  /*秒杀界面--开始*/
+  .basisservice-responsive {
+    height: 80px;
+    font-size: xx-small;
+  }
+  .goodclasstitle-responsive {
+    line-height: 100%;
+    font-size: 120%;
+    font-weight: bold;
+  }
+  .goodclasssubtitle-responsive {
+    line-height: 100%;
+    font-size: 80%;
+    /*font-weight: bold;*/
+  }
+  .recommendoutline-responsive {
+    font-size: 160%;
+    font-weight: bold;
+  }
+  .recommendrow-responsive {
+    padding: 4px 7px 0;
+  }
+  .recommendtitle-responsive {
+    font-size: 70%;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 12px;
+    color: #fff
+  }
+  .goodsrecommend-reponsive {
+    border-radius: 24px;
+    box-shadow: 2px 2px 3px #aaaaaa;
+  }
+  .circle-box {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+  }
+  .showmore-text {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  /*秒杀界面--结束*/
+
+  /*商品列表--开始*/
+  .shorttitle-responsive {
+    margin-top: 4px;
+    line-height: 16px;
+    font-size: 75%;
+    font-weight: bold;
+  }
+  .coupontips-responsive {
+    font-size: 40%;
+  }
+  .pricetips-responsive {
+    font-size: xx-small!important;
+    text-align: left;
+    position:absolute;
+    bottom: 4px;
+  }
+  .realpay-responsive {
+    font-size: 15px;
+  }
+  .couponvalue-responsive {
+    font-size: 115%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+  }
+  .couponsurplus-responsive {
+    font-size: 50%;
+    position: absolute;
+    top: 48%;
+  }
+  .getcoupon-responsive {
+    position: absolute;
+    bottom: 6px;
+  }
+  .goodsblock-shorttitle {
+    font-size: 85%;
+  }
+  .goodsblock-price {
+    font-size: small;
+  }
+  .goodsblock-coupon {
+    font-size: xx-small;
+  }
+  .goodsblock-price {
+    font-size: 115%;
+  }
+  /*商品列表--结束*/
+
+  /*商品详情--开始*/
+  .title-responsive {
+    font-size: 125%;
+    line-height: 120%;
+  }
+  .detailprice-responsive {
+    font-size: 100%;
+  }
+  .detailcoupon-responsive {
+    font-size: 80%;
+  }
+  .sharebar-size {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    height: 40%;
+    max-height: 45%;
+  }
+  .shareitem-responsive {
+    font-size: xx-small;
+  }
+  /*商品详情--结束*/
+}
+
+@media screen and (min-device-width: 320px) {
+  /*秒杀界面--开始*/
+  .basisservice-responsive {
+    height: 80px;
+    font-size: xx-small;
+  }
+  .goodclasstitle-responsive {
+    line-height: 100%;
+    font-size: 120%;
+    font-weight: bold;
+  }
+  .goodclasssubtitle-responsive {
+    line-height: 100%;
+    font-size: 80%;
+    /*font-weight: bold;*/
+  }
+  .recommendoutline-responsive {
+    font-size: 165%;
+    font-weight: bold;
+  }
+  .recommendrow-responsive {
+    padding: 5px 7px 0;
+  }
+  .recommendtitle-responsive {
+    font-size: 85%;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 12px;
+    color: #fff
+  }
+  .goodsrecommend-reponsive {
+    border-radius: 24px;
+    box-shadow: 2px 2px 3px #aaaaaa;
+  }
+  .circle-box {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+  }
+  .showmore-text {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    padding: 8px;
+    font-size: 16px;
+  }
+  /*秒杀界面--结束*/
+
+  /*商品列表--开始*/
+  .shorttitle-responsive {
+    margin-top: 4px;
+    line-height: 18px;
+    font-size: 80%;
+    font-weight: bold;
+
+  }
+  .coupontips-responsive {
+    font-size: 40%;
+  }
+  .pricetips-responsive {
+    font-size: xx-small!important;
+    text-align: left;
+    position:absolute;
+    bottom: 4px;
+  }
+  .realpay-responsive {
+    font-size: 16px;
+  }
+  .couponvalue-responsive {
+    font-size: 115%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+  }
+  .couponsurplus-responsive {
+    font-size: 50%;
+    position: absolute;
+    top: 48%;
+  }
+  .getcoupon-responsive {
+    position: absolute;
+    bottom: 6px;
+  }
+  .goodsblock-shorttitle {
+    font-size: 90%;
+  }
+  .goodsblock-price {
+    font-size: 100%;
+  }
+  .goodsblock-coupon {
+    font-size: xx-small;
+  }
+  .goodsblock-price {
+    font-size: 120%;
+  }
+  /*商品列表--结束*/
+
+  /*商品详情--开始*/
+  .title-responsive {
+    font-size: 125%;
+    line-height: 120%;
+  }
+  .detailprice-responsive {
+    font-size: 100%;
+  }
+  .detailcoupon-responsive {
+    font-size: 80%;
+  }
+  .sharebar-size {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    height: 40%;
+    max-height: 45%;
+  }
+  .shareitem-responsive {
+    font-size: xx-small;
+  }
+  /*商品详情--结束*/
+}
+
+@media screen and (min-device-width: 360px) {
+  /*秒杀界面--开始*/
+  .basisservice-responsive {
+    height: 80px;
+    font-size: 100%;
+  }
+  .goodclasstitle-responsive {
+    line-height: 100%;
+    font-size: 125%;
+    font-weight: bold;
+  }
+  .goodclasssubtitle-responsive {
+    line-height: 100%;
+    font-size: 85%;
+    /*font-weight: bold;*/
+  }
+  .recommendoutline-responsive {
+    font-size: 180%;
+    font-weight: bold;
+  }
+  .recommendrow-responsive {
+    padding: 4px 7px 0;
+  }
+  .recommendtitle-responsive {
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 12px;
+    color: #fff
+  }
+  .goodsrecommend-reponsive {
+    border-radius: 24px;
+    box-shadow: 2px 2px 3px #aaa;
+  }
+  .circle-box {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+  }
+  .showmore-text {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    padding: 14px;
+    font-size: 16px;
+  }
+  /*秒杀界面--结束*/
+
+  /*商品列表--开始*/
+  .shorttitle-responsive {
+    margin-top: 4px;
+    line-height: 120%;
+    font-size: 95%;
+    font-weight: bold;
+  }
+  .coupontips-responsive {
+    height: 30%;
+    font-size: 70%;
+    position:absolute;
+    bottom: 4px;
+  }
+  .pricetips-responsive {
+    font-size: 80%!important;
+    text-align: left;
+    position:absolute;
+    bottom: 4px;
+  }
+  .realpay-responsive {
+    font-size: 150%;
+  }
+  .couponvalue-responsive {
+    font-size: 120%;
+    height: 55%;
+    position: absolute;
+    top: 0;
+  }
+  .couponsurplus-responsive {
+    font-size: 60%;
+    position: absolute;
+    top: 50%;
+  }
+  .getcoupon-responsive {
+    position: absolute;
+    bottom: 10%;
+  }
+  .goodsblock-shorttitle {
+    font-size: 100%;
+  }
+  .goodsblock-coupon {
+    font-size: x-small;
+  }
+  .goodsblock-price {
+    font-size: 140%;
+  }
+  /*商品列表--结束*/
+
+  /*商品详情--开始*/
+  .title-responsive {
+    font-size: 160%;
+    line-height: 100%;
+  }
+  .detailprice-responsive {
+    font-size: 150%;
+  }
+  .detailcoupon-responsive {
+    font-size: 100%;
+  }
+  .sharebar-size {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    height: 40%;
+    max-height: 40%;
+  }
+  .shareitem-responsive {
+    font-size: 100%;
+  }
+  /*商品详情--结束*/
+
+}
+
+@media screen and (min-device-width: 375px) {
+  /*秒杀界面--开始*/
+  .basisservice-responsive {
+    height: 80px;
+    font-size: 100%;
+  }
+  .goodclasstitle-responsive {
+    line-height: 100%;
+    font-size: 130%;
+    font-weight: bold;
+  }
+  .goodclasssubtitle-responsive {
+    line-height: 100%;
+    font-size: 90%;
+    /*font-weight: bold;*/
+  }
+  .recommendoutline-responsive {
+    font-size: 180%;
+    font-weight: bold;
+  }
+  .recommendrow-responsive {
+    padding: 4px 7px 0;
+  }
+  .recommendtitle-responsive {
+    font-size: 100%;
+    font-weight: bolder;
+    padding: 2px 6px;
+    border-radius: 12px;
+    color: #fff
+  }
+  .goodsrecommend-reponsive {
+    border-radius: 34px;
+    box-shadow: 2px 2px 3px #aaaaaa;
+  }
+  .circle-box {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+  .showmore-text {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    padding: 14px;
+    font-size: 16px;
+  }
+  /*秒杀界面--结束*/
+  /*商品列表--开始*/
+  .shorttitle-responsive {
+    margin-top: 4px;
+    line-height: 135%;
+    font-size: 90%;
+    font-weight: bold;
+  }
+  .coupontips-responsive {
+    font-size: 70%;
+  }
+  .pricetips-responsive {
+    font-size: 80%!important;
+    text-align: left;
+    position:absolute;
+    bottom: 4px;
+  }
+  .realpay-responsive {
+    font-size: 155%;
+  }
+  .couponvalue-responsive {
+    font-size: 125%;
+    height: 58%;
+    position: absolute;
+    top: 0;
+  }
+  .couponsurplus-responsive {
+    font-size: 65%;
+    position: absolute;
+    top: 52%;
+  }
+  .getcoupon-responsive {
+    position: absolute;
+    bottom: 10%;
+  }
+  .goodsblock-shorttitle {
+    font-size: 100%;
+  }
+  .goodsblock-price {
+    font-size: large;
+  }
+  .goodsblock-coupon {
+    font-size: smaller;
+  }
+  .goodsblock-surpluscoupon {
+    font-size: xx-small;
+  }
+  /*商品列表--结束*/
+
+  /*商品详情--开始*/
+  .title-responsive {
+    font-size: 160%;
+    line-height: 100%;
+  }
+  .detailprice-responsive {
+    font-size: 150%;
+  }
+  .detailcoupon-responsive {
+    font-size: 100%;
+  }
+  .sharebar-size {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    height: 40%;
+    max-height: 40%;
+  }
+  .shareitem-responsive {
+    font-size: 100%;
+  }
+  /*商品详情--结束*/
+
+}
+
+@media screen and (min-device-width: 412px) {
+  /*秒杀界面--开始*/
+  .basisservice-responsive {
+    height: 100px;
+    font-size: 100%;
+  }
+  .goodclasstitle-responsive {
+    line-height: 100%;
+    font-size: 130%;
+    font-weight: bold;
+  }
+  .goodclasssubtitle-responsive {
+    line-height: 100%;
+    font-size: 90%;
+    /*font-weight: bold;*/
+  }
+  .recommendoutline-responsive {
+    font-size: 180%;
+    font-weight: bold;
+  }
+  .recommendrow-responsive {
+    padding: 4px 7px 0;
+  }
+  .recommendtitle-responsive {
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 12px;
+    color: #fff
+  }
+  .goodsrecommend-reponsive {
+    border-radius: 34px;
+    box-shadow: 2px 2px 3px #aaaaaa;
+  }
+  .circle-box {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+  }
+  .showmore-text {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    padding: 18px;
+    font-size: 18px;
+  }
+  /*秒杀界面--结束*/
+
+  /*商品列表--开始*/
+  .shorttitle-responsive {
+    margin-top: 4px;
+    line-height: 135%;
+    font-size: 115%;
+    font-weight: bold;
+  }
+  .coupontips-responsive {
+    font-size: 72%;
+  }
+  .pricetips-responsive {
+    font-size: 85%!important;
+    text-align: left;
+    position:absolute;
+    bottom: 4px;
+  }
+  .realpay-responsive {
+    font-size: 160%;
+  }
+  .couponvalue-responsive {
+    font-size: 135%;
+    height: 60%;
+    position: absolute;
+    top: 0;
+  }
+  .couponsurplus-responsive {
+    font-size: 75%;
+    position: absolute;
+    top: 55%;
+  }
+  .getcoupon-responsive {
+    position: absolute;
+    bottom: 10%;
+  }
+  .goodsblock-shorttitle {
+    font-size: 110%;
+  }
+  .goodsblock-coupon {
+    font-size: small;
+  }
+  .goodsblock-price {
+    font-size: 150%;
+  }
+  /*商品列表--结束*/
+
+  /*商品详情--开始*/
+  .title-responsive {
+    font-size: 160%;
+    line-height: 100%;
+  }
+  .detailprice-responsive {
+    font-size: 150%;
+  }
+  .detailcoupon-responsive {
+    font-size: 100%;
+  }
+  .sharebar-size {
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    height: 40%;
+    max-height: 35%;
+  }
+  .shareitem-responsive {
+    font-size: 100%;
+  }
+  /*商品详情--结束*/
+
+}
+
+@media screen and (min-device-width: 480px) {
+  /*秒杀界面--开始*/
+  .basisservice-responsive {
+    height: 100px;
+    font-size: 100%;
+  }
+  .goodclasstitle-responsive {
+    line-height: 100%;
+    font-size: 145%;
+    font-weight: bold;
+  }
+  .goodclasssubtitle-responsive {
+    line-height: 100%;
+    font-size: 105%;
+    /*font-weight: bold;*/
+  }
+  .recommendoutline-responsive {
+    font-size: 180%;
+    font-weight: bold;
+  }
+  .recommendrow-responsive {
+    padding: 4px 7px 0;
+  }
+  .recommendtitle-responsive {
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 12px;
+    color: #fff
+  }
+  .goodsrecommend-reponsive {
+    border-radius: 34px;
+    box-shadow: 2px 2px 3px #aaaaaa;
+  }
+  .circle-box {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .showmore-text {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    padding: 26px;
+    font-size: 18px;
+  }
+
+  /*秒杀界面--结束*/
+  /*商品列表--开始*/
+  .shorttitle-responsive {
+    margin-top: 8px;
+    line-height: 145%;
+    font-size: 120%;
+    font-weight: bold;
+  }
+  .coupontips-responsive {
+    font-size: 80%;
+  }
+  .pricetips-responsive {
+    font-size: 90%!important;
+    text-align: left;
+    position:absolute;
+    bottom: 8px;
+  }
+  .realpay-responsive {
+    font-size: 160%;
+  }
+  .couponvalue-responsive {
+    font-size: 155%;
+    height: 63%;
+    position: absolute;
+    top: 0;
+  }
+  .couponsurplus-responsive {
+    font-size: 95%;
+    position: absolute;
+    top: 58%;
+  }
+  .getcoupon-responsive {
+    position: absolute;
+    bottom: 10%;
+  }
+  .goodsblock-shorttitle {
+    font-size: 115%;
+  }
+  .goodsblock-coupon {
+    font-size: 100%;
+  }
+  .goodsblock-price {
+    font-size: 155%;
+  }
+  /*商品列表--结束*/
+
+  /*商品详情--开始*/
+  .title-responsive {
+    font-size: 160%;
+    line-height: 100%;
+  }
+  .detailprice-responsive {
+    font-size: 150%;
+  }
+  .detailcoupon-responsive {
+    font-size: 100%;
+  }
+  .sharebar-size {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    max-height: 35%;
+  }
+  .shareitem-responsive {
+    font-size: 100%;
+  }
+  /*商品详情--结束*/
+
+}
+
+@media screen and (min-device-width: 540px) {
+  /*秒杀界面--开始*/
+  .basisservice-responsive {
+    height: 120px;
+    font-size: 100%;
+  }
+  .goodclasstitle-responsive {
+    line-height: 100%;
+    font-size: 165%;
+    font-weight: bold;
+  }
+  .goodclasssubtitle-responsive {
+    line-height: 100%;
+    font-size: 125%;
+    font-weight: bold;
+  }
+  .recommendoutline-responsive {
+    font-size: 180%;
+    font-weight: bold;
+  }
+  .recommendrow-responsive {
+    padding: 4px 7px 0;
+  }
+  .recommendtitle-responsive {
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 12px;
+    color: #fff
+  }
+  .goodsrecommend-reponsive {
+    border-radius: 44px;
+    box-shadow: 2px 2px 3px #aaaaaa;
+  }
+  .circle-box {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  .showmore-text {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    padding: 36px;
+    font-size: 22px;
+  }
+  /*秒杀界面--结束*/
+
+  /*商品列表--开始*/
+  .shorttitle-responsive {
+    margin-top: 12px;
+    line-height: 160%;
+    font-size: 125%;
+    font-weight: bold;
+  }
+  .coupontips-responsive {
+    font-size: 85%;
+  }
+  .pricetips-responsive {
+    font-size: 95%!important;
+    text-align: left;
+    position:absolute;
+    bottom: 12px;
+  }
+  .realpay-responsive {
+    font-size: 160%;
+  }
+  .couponvalue-responsive {
+    font-size: 165%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+  }
+  .couponsurplus-responsive {
+    font-size: 100%;
+    position: absolute;
+    top: 65%;
+  }
+  .getcoupon-responsive {
+    position: absolute;
+    bottom: 10%;
+  }
+  .goodsblock-shorttitle {
+    font-size: 120%;
+  }
+  .goodsblock-coupon {
+    font-size: 115%;
+  }
+  .goodsblock-price {
+    font-size: 160%;
+  }
+  /*商品列表--结束*/
+
+  /*商品详情--开始*/
+  .title-responsive {
+    font-size: 160%;
+    line-height: 100%;
+  }
+  .detailprice-responsive {
+    font-size: 150%;
+  }
+  .detailcoupon-responsive {
+    font-size: 100%;
+  }
+  .sharebar-size {
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    height: 40%;
+    max-height: 35%;
+  }
+  .shareitem-responsive {
+    font-size: 100%;
+  }
+  /*商品详情--结束*/
+
+}
+
+@media screen and (min-device-width: 600px) {
+  /*秒杀界面--开始*/
+  .basisservice-responsive {
+    height: 120px;
+    font-size: 100%;
+  }
+  .goodclasstitle-responsive {
+    line-height: 100%;
+    font-size: 165%;
+    font-weight: bold;
+  }
+  .goodclasssubtitle-responsive {
+    line-height: 100%;
+    font-size: 125%;
+    font-weight: bold;
+  }
+  .recommendoutline-responsive {
+    font-size: 180%;
+    font-weight: bold;
+  }
+  .recommendrow-responsive {
+    padding: 4px 7px 0;
+  }
+  .recommendtitle-responsive {
+    font-size: 110%;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 12px;
+    color: #fff
+  }
+  .goodsrecommend-reponsive {
+    border-radius: 44px;
+    box-shadow: 2px 2px 3px #aaaaaa;
+  }
+  .circle-box {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+  }
+  .showmore-text {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    padding: 38px;
+    font-size: 24px;
+  }
+  /*秒杀界面--结束*/
+
+  /*商品列表--开始*/
+  .shorttitle-responsive {
+    margin-top: 14px;
+    line-height: 160%;
+    font-size: 135%;
+    font-weight: bold;
+  }
+  .coupontips-responsive {
+    font-size: 90%;
+  }
+  .pricetips-responsive {
+    font-size: 120%!important;
+    text-align: left;
+    position:absolute;
+    bottom: 14px;
+  }
+  .realpay-responsive {
+    font-size: 180%;
+  }
+  .couponvalue-responsive {
+    font-size: 175%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+  }
+  .couponsurplus-responsive {
+    font-size: 120%;
+    position: absolute;
+    top: 60%;
+  }
+  .getcoupon-responsive {
+    position: absolute;
+    bottom: 10%;
+  }
+  .goodsblock-shorttitle {
+    font-size: 130%;
+  }
+  .goodsblock-coupon {
+    font-size: 120%;
+  }
+  .goodsblock-price {
+    font-size: 180%;
+  }
+  /*商品列表--结束*/
+
+  /*商品详情--开始*/
+  .title-responsive {
+    font-size: 160%;
+    line-height: 100%;
+  }
+  .detailprice-responsive {
+    font-size: 150%;
+  }
+  .detailcoupon-responsive {
+    font-size: 100%;
+  }
+  .sharebar-size {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    max-height: 35%;
+  }
+  .shareitem-responsive {
+    font-size: 100%;
+  }
+  /*商品详情--结束*/
+
+}
+
+@media screen and (min-device-width: 768px) {
+  /*秒杀界面--开始*/
+  .basisservice-responsive {
+    height: 150px;
+    font-size: 100%;
+  }
+  .goodclasstitle-responsive {
+    line-height: 100%;
+    font-size: 300%;
+    font-weight: bold;
+  }
+  .goodclasssubtitle-responsive {
+    line-height: 100%;
+    font-size: 260%;
+    font-weight: bold;
+  }
+  .recommendoutline-responsive {
+    font-size: 180%;
+    font-weight: bold;
+  }
+  .recommendrow-responsive {
+    padding: 4px 7px 0;
+  }
+  .recommendtitle-responsive {
+    font-size: 140%;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 12px;
+    color: #fff
+  }
+  .goodsrecommend-reponsive {
+    border-radius: 44px;
+    box-shadow: 2px 2px 3px #aaaaaa;
+  }
+  .circle-box {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+  }
+  .showmore-text {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    padding: 50px;
+    font-size: 28px;
+  }
+  /*秒杀界面--结束*/
+
+  /*商品列表--开始*/
+  .shorttitle-responsive {
+    margin-top: 18px;
+    line-height: 200%;
+    font-size: 160%;
+    font-weight: bold;
+  }
+  .coupontips-responsive {
+    font-size: 100%;
+  }
+  .pricetips-responsive {
+    font-size: 120%!important;
+    text-align: left;
+    position:absolute;
+    bottom: 18px;
+  }
+  .realpay-responsive {
+    font-size: 160%;
+  }
+  .couponvalue-responsive {
+    font-size: 275%;
+    height: 65%;
+    position: absolute;
+    top: 0;
+  }
+  .couponsurplus-responsive {
+    font-size: 120%;
+    position: absolute;
+    top: 70%
+  }
+  .getcoupon-responsive {
+    position: absolute;
+    bottom: 10%;
+  }
+  .goodsblock-shorttitle {
+    font-size: 130%;
+  }
+  .goodsblock-coupon {
+    font-size: 125%;
+  }
+  .goodsblock-price {
+    font-size: 180%;
+  }
+  /*商品列表--结束*/
+
+  /*商品详情--开始*/
+  .shareitem-responsive {
+
+  }
+  .title-responsive {
+    font-size: 160%;
+    line-height: 100%;
+  }
+  .detailprice-responsive {
+    font-size: 150%;
+  }
+  .detailcoupon-responsive {
+    font-size: 100%;
+  }
+  .sharebar-size {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    max-height: 35%;
+  }
+  .shareitem-responsive {
+    font-size: 100%;
+  }
+  /*商品详情--结束*/
+
+}

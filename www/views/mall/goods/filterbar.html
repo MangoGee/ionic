@@ -1,0 +1,66 @@
+<ion-modal-view class="col-80 col-offset-20 " >
+  <div class="light-bg">
+    <div class="content">
+
+
+      <div class="row padding">
+        <h4 class="col" style="margin-bottom: 0;">分类</h4>
+      </div>
+
+      <div class="list row row-wrap">
+        <label class="item item-radio col-30" style="margin: 0 2px 2px 0;border-radius: 5px;" ng-repeat="sideClass in goodClassNames" ng-class="{'goodchildclass-selected' : $index==formData.classid}">
+          <input type="radio" name="goodclass" value="{{$index}}" ng-model="formData.classid" >
+          <div class="item-content" style="text-align: center;padding: 4px;background-color: #eee!important;">
+            {{sideClass.name}}
+          </div>
+        </label>
+      </div>
+
+    </div>
+
+    <div class="row padding">
+      <h4 class="col" style="margin-bottom: 0;">价格区间</h4>
+    </div>
+    <div class="row padding">
+      <div class="col col-40 item-input-inset">
+        <label class="item-input-wrapper">
+          <input type="number" placeholder="最低价" name="lowestPrice" ng-model="formData.lowestPrice" >
+        </label>
+      </div>
+      <div class="col col-10 col-center">—</div>
+      <div class="col col-40 item-input-inset">
+        <label class="item-input-wrapper">
+          <input type="number" placeholder="最高价" name="highestPrice" ng-model="formData.highestPrice" >
+        </label>
+      </div>
+    </div>
+
+    <div class="row padding" style="margin-top: 10px;">
+      <h4 class="col" style="margin-top: 10px;margin-bottom: 0;">优惠价格区间</h4>
+    </div>
+    <div class="row padding">
+      <div class="col col-40 item-input-inset">
+        <label class="item-input-wrapper">
+          <input type="number" placeholder="最低价" name="lowestCouPrice" ng-model="formData.lowestCouPrice" >
+        </label>
+      </div>
+      <div class="col col-10 col-center">—</div>
+      <div class="col col-40 item-input-inset">
+        <label class="item-input-wrapper">
+          <input type="number" placeholder="最高价" name="highestCouPrice" ng-model="formData.highestCouPrice" >
+        </label>
+      </div>
+    </div>
+
+    <ion-footer-bar class="hide-on-keyboard-open" style="padding: 0;">
+      <div class="row row-no-padding">
+        <div class="col-50" style="background-color: #cccccc;">
+          <a class="button button-full button-clear" style="color: black;" ng-click="dealReset()">重置</a>
+        </div>
+        <div class="col-50" style="background-color: #cf000f;">
+          <a class="button button-full button-clear" style="color: black;" ng-click="dealFilter()">完成</a>
+        </div>
+      </div>
+    </ion-footer-bar>
+  </div>
+</ion-modal-view>

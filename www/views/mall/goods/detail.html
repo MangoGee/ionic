@@ -1,0 +1,53 @@
+<ion-view view-title="秒杀详情" hide-tabs>
+  <ion-nav-bar class="bar-dark" align-title="center">
+    <ion-nav-back-button class="button button-icon">
+      <i class="icon iconback iconback-leftarrow"></i>
+    </ion-nav-back-button>
+
+    <!--<ion-nav-buttons side="left">-->
+      <!--<button class="button button-icon" ng-click="goBack()">-->
+        <!--<i class="icon iconback iconback-leftarrow"></i>-->
+      <!--</button>-->
+    <!--</ion-nav-buttons>-->
+
+    <ion-nav-buttons side="right">
+      <button class="button button-icon" ng-click="openShareBarModal()">
+        <i class="icon ion-share"></i>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content class="has-header">
+    <div class="row row-no-padding">
+      <img src="{{selectData.img_url}}" class="col image full-image" height="45%">
+    </div>
+    <div class="row" style="margin-top: 5px;">
+      <p class="col title-responsive">{{selectData.title}}</p>
+    </div>
+    <div class="row padding detailprice-responsive" >
+      <span class="col-bottom" style="color: #e86d6f;">
+        券后价：<b style="font-size: 180%;">¥{{selectData.price}}</b>
+        <span class="col-bottom" style="color: black;margin-left: 7px;">
+          原价: <span style="text-decoration: line-through;">¥{{selectData.originalprice}}</span>
+        </span>
+      </span>
+    </div>
+
+    <p class="row padding detailcoupon-responsive" style="margin-top: 5px;">
+      优惠券金额：<b style="font-size: 180%;">¥{{selectData.couponvalue}}</b>
+    </p>
+    <p class="row padding detailcoupon-responsive">
+      优惠券剩余量：<b style="font-size: 180%;color: #e86d6f">{{selectData.couponsurplus}}</b> 张
+    </p>
+    <p class="row padding detailcoupon-responsive">使用条件：{{selectData.coupon_condition}}</p>
+    <p class="row padding detailcoupon-responsive">有效期至：{{selectData.effecttime}}</p>
+    <p class="row padding detailcoupon-responsive">{{selectData.introduce}}</p>
+
+  </ion-content>
+  <ion-footer-bar class="bar-stable" align-title="center" style="background-color: #cf000f!important;">
+    <!--<div style="" ">-->
+      <a class="col button button-full button-clear" style="margin-top: 0;padding: 0;text-align: center;color: black;" ng-click="toTargetUrl(selectData.couponid,selectData.goodid)">领券购买</a>
+    <!--</div>-->
+  </ion-footer-bar>
+
+</ion-view>

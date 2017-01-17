@@ -1,0 +1,51 @@
+<ion-view>
+    <ion-content class="full-height stable-bg">
+        <div class="row" style="height:100%">
+            <div class="col col-100 col-center">
+                <div class="text-center">
+                    <img src="img/profile_big.png" style="height: 90px;border-radius: 50%;border: solid white 5px;"/>
+                </div>
+                <form>
+                    <div class="list">
+                        <label class="item item-input" style="border-radius:10px">
+                            <i class="icon ion-android-person positive"></i>
+                            <input type="text" ng-model="username" placeholder="请输入您的用户名" />
+                        </label>
+                        <label class="item item-input" style="border-radius:10px">
+                            <i class="icon ion-ios-unlocked-outline positive"></i>
+                            <input type="password" ng-model="password" placeholder="请输入您的密码" />
+                        </label>
+                        <label class="item item-input" style="border-radius:10px" ng-show="isactivation">
+                            <i class="icon ion-ios-unlocked-outline positive"></i>
+                            <input type="text" ng-model="activation" placeholder="激活码" />
+                        </label>
+                        <label class="item item-checkbox" style="border-radius:10px">
+                            <label class="checkbox">
+                                <input type="checkbox" ng-model="rememberme" checked />
+                            </label>
+                            记住密码
+                        </label>
+                    </div>
+                </form>
+
+                <div class="row" style="color: darkorange">
+                    <div class="col col-50 text-left" ui-sref="recovery">
+                        忘记密码？
+                    </div>
+                    <div class="col col-50 text-right" ng-click="registerClick()">
+                        注册账号
+                    </div>
+                </div>
+
+                <button class="button button-block button-dark" ng-click="loginClick()">登录陌攻</button>
+            </div>
+        </div>
+    </ion-content>
+    <ion-footer-bar class="stable-bg" style="font-size: 12px;color: #b2b2b2">
+        <div class="row">
+            <div class="col text-center">
+                关注官方公众号：moogoon
+            </div>
+        </div>
+    </ion-footer-bar>
+</ion-view>

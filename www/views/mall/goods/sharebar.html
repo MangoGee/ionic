@@ -1,0 +1,21 @@
+<ion-modal-view class="sharebar-size">
+
+  <ion-content class=" white-bg" on-touch="$event.stopPropagation();">
+    <div class="row">
+      <span class="col text-center">分享至…</span>
+    </div>
+    <ul class="row row-no-padding row-wrap" style="overflow: auto">
+      <li class="col-25 col-center padding-horizontal shareitem-responsive" ng-repeat="shareItem in shareType" ng-click="toShare(shareItem.id)">
+        <div class="row padding">
+          <div class="col">
+            <img class="image full-image" src="{{shareItem.itemImg}}">
+          </div>
+        </div>
+        <div class="row">
+          <span class="col text-center no-padding">{{shareItem.itemName}}</span>
+        </div>
+      </li>
+    </ul>
+  </ion-content>
+
+</ion-modal-view>

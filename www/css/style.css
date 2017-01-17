@@ -1,0 +1,407 @@
+/* GLOBAL  */
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-padding-top {
+  padding-top: 0 !important;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+
+.no-padding-left {
+  padding-left: 0 !important;
+}
+
+.no-padding-right {
+  padding-right: 0 !important;
+}
+
+.no-borders {
+  border: none !important;
+}
+
+.no-margins {
+  margin: 0 !important;
+}
+
+.no-top-border {
+  border-top: 0 !important;
+}
+
+.half-width{
+  width: 50%;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.full-height{
+  min-height: 100%;
+}
+
+.text-small{
+  font-size: 0.8em;
+}
+
+.text-middle{
+  font-size: 1.2em;
+}
+
+.text-big{
+  font-size: 2em;
+}
+
+.mine-login{
+  float: left;
+  height: 100%;
+  width: 100%;
+  margin: 25% 0;
+  top: 50%;
+}
+
+.col-5 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 5%;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 5%;
+  -ms-flex: 0 0 5%;
+  flex: 0 0 5%;
+}
+
+.col-15 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 15%;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 15%;
+  -ms-flex: 0 0 15%;
+  flex: 0 0 15%;
+}
+
+.col-30 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 30%;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 30%;
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+}
+
+.col-70 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 70%;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 70%;
+  -ms-flex: 0 0 70%;
+  flex: 0 0 70%;
+}
+
+.col-85 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 85%;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 85%;
+  -ms-flex: 0 0 85%;
+  flex: 0 0 85%;
+}
+
+
+/* Empty. Add your own CSS if you like */
+
+/*背景色--开始*/
+.body-bg {
+  /*background-color: #faf6f5;*/
+  background-color: #f3f5f7;
+}
+.tintpink-bg {
+  background-color: #ffe4e9;
+}
+.orange-bg {
+  background-color:#feaf46;
+}
+.tintorange-bg {
+  background-color:#f9673e;
+}
+.white-bg {
+  background-color: #fff;
+}
+.tintgray-bg {
+  background-color: #ddd;
+}
+.moretintgray-bg {
+  background-color: #f6f6f6;
+}
+/*背景色--结束*/
+
+/*文字图片处理--开始*/
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.line-height-full {
+  line-height: 100%;
+}
+.line-height-clear {
+  line-height: 0;
+}
+.orange-font {
+  color:#feaf46!important;
+}
+.gray-font {
+  color: #ccc;
+}
+.pink-font {
+  color: #ee7c82!important;
+}
+.tintred-font {
+  color: #e86d6f!important;
+}
+.tintgray-font {
+  color: #ddd!important;
+}
+.white-font {
+  color: #fff!important;
+}
+/*文字处理--结束*/
+
+/* 全局—开始 */
+.bodyview {
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+/* 全局—结束 */
+
+/*秒杀界面--开始*/
+.slide-box {
+  height: 180px;
+}
+.goodsclass-button {
+  line-height: 0;
+  text-align: center;
+}
+.goodsclass {
+  border-radius: 12px;
+  box-shadow: 2px 2px 3px #aaaaaa;
+}
+.border-right {
+  border-right: 1px solid #eee;
+}
+.border-left {
+  border-left: 1px solid #eee;
+}
+.border-top {
+  border-top: 1px solid #eee;
+}
+.border-bottom {
+  border-bottom: 1px solid #eee;
+}
+.border-right-bottom {
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.border-left-bottom {
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.border-right-top {
+  border-right: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+.border-left-top {
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+.col-goodclass {
+  padding: 5px 2px;
+}
+.item-good {
+  margin-left: 8px;
+  box-shadow: 1px 1px 2px #ccc;
+}
+/*秒杀界面--结束*/
+
+/*商品列表界面---开始*/
+.couponvalue {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size:larger;
+  color: #fff;
+}
+
+.goodclass-selected{
+  color: #e4393c!important;
+}
+
+.goodchildclass-selected{
+  border: 1px solid #e4393c!important;
+  color: #e4393c;
+}
+.a-button {
+  display:block;
+  border: 2px solid #fc8e18;
+  border-radius: 24px;
+  background-color: #fff;
+  box-shadow: 0.5px -1px 2px #aaaaaa inset;
+}
+
+.a-button:active {
+  display:block;
+  border: 2px solid #fc8e18;
+  border-radius: 24px;
+  background-color: #fff;
+  box-shadow: 2px 1px 10px #aaaaaa inset;
+}
+
+.coupon-box {
+  border-left:1px dashed #faf6f5;
+}
+
+.goods-block {
+  padding: 2px;
+  box-shadow: 1px 1px 2px #aaa;
+}
+
+.goodblock-title {
+  margin: 5px 0 3px 0;
+  overflow: hidden
+}
+
+/*商品列表界面---结束*/
+
+/*商品详情界面---开始*/
+.sheet-margin {
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  margin-left: 2px;
+}
+/*商品详情界面---结束*/
+
+.tour {
+  background-color: #ffefd6;
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+}
+.tour .slider {
+  height: 100%;
+  padding-top: 80px;
+}
+.tour img {
+  max-height: 70%;
+}
+
+.trade {
+  background-color: #ffefd6;
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+}
+.trade .slider {
+  height: 100%;
+}
+.trade img {
+  width: 100%;
+}
+
+.business ul li {
+  border: 2px solid gray;
+  cursor: pointer;
+  float: left;
+  font-size: 12px;
+  list-style: outside none none;
+  margin: 0 10px 5px 0;
+  padding: 5px 10px;
+  position: relative;
+}
+.business ul li:hover {
+  border: 2px solid #e4393c;
+}
+.business ul li > a {
+  display: block;
+  text-decoration: none;
+}
+.business ul li > a:hover {
+  color: #e4393c;
+  padding: 0;
+}
+.business ul li a > p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.business .business-disabled {
+  border: 2px dashed #c4c4c4;
+  color: #999;
+}
+.business .business-disabled a {
+  color: #999;
+}
+.business .business-disabled ul li {
+  border: 2px dashed #c4c4c4;
+  cursor: not-allowed;
+}
+.business .business-disabled ul li:hover {
+  border: 2px dashed #c4c4c4;
+  cursor: not-allowed;
+}
+.business .business-disabled a:hover {
+  color: #999;
+  cursor: not-allowed;
+}
+.business .business-selected {
+  border-color: #e4393c;
+}
+.business .business-selected b {
+  background: rgba(0, 0, 0, 0) url("../img/icon.png") no-repeat scroll 0 0;
+  bottom: 0;
+  height: 15px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  width: 15px;
+}
+
+.full-height .scroll{
+  height: 100%;
+}
+
+.slide-in-right {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(100%);
+}
+.slide-in-right.ng-enter, .slide-in-right > .ng-enter {
+  -webkit-transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+  transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+}
+.slide-in-right.ng-enter-active, .slide-in-right > .ng-enter-active {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.slide-in-right.ng-leave, .slide-in-right > .ng-leave {
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+}
+.slide-in-left {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(100%);
+}
+.slide-in-left.ng-enter, .slide-in-left > .ng-enter {
+  -webkit-transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+  transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+}
+.slide-in-left.ng-enter-active, .slide-in-left > .ng-enter-active {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.slide-in-left.ng-leave, .slide-in-left > .ng-leave {
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+}

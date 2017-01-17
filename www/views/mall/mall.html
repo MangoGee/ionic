@@ -1,0 +1,189 @@
+<ion-view id="shangbaos" class="bodyview">
+
+  <ion-nav-bar class="bar-dark" align-title="center">
+    <ion-nav-title>
+      <h2 class="title">秒杀</h2>
+    </ion-nav-title>
+
+    <!--<ion-nav-buttons side="right">-->
+      <!--<button class="button button-icon" ng-click="">-->
+        <!--<i class="icon iconsign iconsign-sign"></i>-->
+      <!--</button>-->
+    <!--</ion-nav-buttons>-->
+  </ion-nav-bar>
+
+  <ion-content class="has-header body-bg">
+    <ion-slide-box class="slide-box" auto-play="true" show-pager="false"  does-continue="true" on-slide-changed="slideHasChanged($index)">
+      <ion-slide>
+        <img src="img/main1.png" class="full-image" alt="活动1">
+      </ion-slide>
+      <ion-slide>
+        <img src="img/main2.png" class="full-image" alt="活动2">
+      </ion-slide>
+      <ion-slide>
+        <img src="img/main3.png" class="full-image" alt="活动3">
+      </ion-slide>
+    </ion-slide-box>
+
+    <div class="contentbox">
+
+      <div class="row padding white-bg basisservice-responsive">
+        <div class="col-25 col-center padding">
+          <div class="row">
+            <div class="col-60 col-offset-20 col-center" ng-click="">
+              <img class="image full-image" src="img/pic/recharge-icon.png">
+              <div class="row text-center no-padding">
+                <div class="col text-center no-padding no-margins">充值</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-25 col-center padding">
+          <div class="row">
+            <div class="col-60 col-offset-20 col-center" ng-click="">
+              <img class="image full-image" src="img/pic/insider-icon.png">
+              <div class="row text-center no-padding">
+                <div class="col text-center no-padding no-margins">会员</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-25 col-center padding">
+          <div class="row">
+            <div class="col-60 col-offset-20 col-center" ng-click="">
+              <img class="image full-image" src="img/pic/moocoin-icon.png">
+              <div class="row text-center no-padding">
+                <div class="col text-center no-padding no-margins">陌币</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-25 col-center padding">
+          <div class="row">
+            <div class="col-60 col-offset-20 col-center" ng-click="">
+              <img class="image full-image" src="img/pic/signin-icon.png">
+              <div class="row text-center no-padding">
+                <div class="col text-center no-padding no-margins">签到</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-wrap no-padding border-top">
+        <div class="col-50 border-right-bottm">
+          <div class="row white-bg goodsclass-button padding-horizontal" ng-click="toGoods(1)">
+            <div class="col-33 col-center">
+              <img class="image full-image" src="img/pic/shopping-icon.png">
+            </div>
+            <div class="col-67 col-center " >
+              <p class="goodclasstitle-responsive">全网</p>
+              <span class="goodclasssubtitle-responsive">优惠商品</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-50 border-left">
+          <div class="row white-bg goodsclass-button padding-horizontal" ng-click="toGoods(2)">
+            <div class="col-33 col-center">
+              <img class="image full-image" src="img/pic/shoppingcart-icon.png">
+            </div>
+            <div class="col-67 col-center ">
+              <p class="goodclasstitle-responsive">实时</p>
+              <span class="goodclasssubtitle-responsive">跑量榜</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-50 border-top">
+          <div class="row white-bg goodsclass-button padding-horizontal" ng-click="toGoods(3)">
+            <div class="col-33 col-center">
+              <img class="image full-image" src="img/pic/like-icon.png">
+            </div>
+            <div class="col-67 col-center ">
+              <p class="padding-horizontal goodclasstitle-responsive">热销</p>
+              <span class="padding-horizontal goodclasssubtitle-responsive">TOP100</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-50 border-left-top">
+          <div class="row white-bg goodsclass-button padding-horizontal" ng-click="toGoods(4)">
+            <div class="col-33 col-center">
+              <img class="image full-image" src="img/pic/heart-icon.png">
+            </div>
+            <div class="col-67 col-center">
+              <p class="goodclasstitle-responsive">人气</p>
+              <span class="goodclasssubtitle-responsive">TOP100</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row" style="margin-top: 20px;padding-bottom: 0;text-align: center">
+        <div class="col col-center">
+          <span class="recommendoutline-responsive">热门推荐</span>
+        </div>
+      </div>
+      <div class="white-bg">
+        <div class="row row-no-padding" style="margin-top: 4px;">
+          <div class="col">
+            <div class="row goodsclass-button recommendrow-responsive" ng-click="toGoods(5)">
+              <div class="col-85 col-center" style="text-align: left">
+                <span class="recommendtitle-responsive tintorange-bg">白菜价</span>
+              </div>
+              <div class="col-5 col-offset-10 col-center" >
+                <img class="image full-image" src="img/pic/arrow-icon-orange.png">
+              </div>
+            </div>
+            <ul class="row" style="padding: 10px 0;overflow: auto;" on-drag-left="$event.stopPropagation();" on-drag-right="$event.stopPropagation();" >
+              <li class="col-33 item-good" ng-repeat="itemGood in lowpricegoods" ng-click="toDetail(itemGood)">
+                <img class="item-image full-image" src="{{itemGood.img_url}}">
+                <div class="row text-center">
+                  <div class="col text-center no-padding no-margins tintred-font">¥{{itemGood.price}}</div>
+                </div>
+              </li>
+              <li class="col-25 col-center padding" ng-click="toGoods(5)">
+                <div class="moretintgray-bg circle-box showmore-text"  style="text-align: center;">
+                  <p>查看</p>
+                  <p class="no-margins">全部</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row row-no-padding" style="margin-top: 10px;">
+          <div class="col">
+
+            <div class="row goodsclass-button recommendrow-responsive" ng-click="toGoods(6)">
+              <div class="col-85 col-center" style="text-align: left">
+                <span class="recommendtitle-responsive tintorange-bg">1元购</span>
+              </div>
+              <div class="col-5 col-offset-10 col-center">
+                <img class="image full-image" src="img/pic/arrow-icon-orange.png">
+              </div>
+            </div>
+
+            <ul class="row deal-scroll"  style="padding: 10px 0;overflow: scroll;" on-drag-left="$event.stopPropagation();" on-drag-right="$event.stopPropagation();">
+              <li class="col-33 item-good" ng-repeat="itemGood in oneyuangoods" ng-click="toDetail(itemGood)">
+                <img class="item-image full-image" src="{{itemGood.img_url}}">
+                <div class="row text-center">
+                  <div class="col text-center no-padding no-margins tintred-font">¥{{itemGood.price}}</div>
+                </div>
+              </li>
+              <li class="col-25 col-center padding" ng-click="toGoods(6)">
+                <div class="moretintgray-bg circle-box showmore-text"  style="text-align: center;">
+                  <p>查看</p>
+                  <p class="no-margins">全部</p>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </ion-content>
+
+</ion-view>
